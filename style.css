@@ -1,6 +1,11 @@
-.menu_nav{
+.menu_nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+
+.menu_nav :hover {
+  background-color: rgba(255, 230, 0, 0.548);
+  border-radius: 5px;
 }
